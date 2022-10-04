@@ -2,7 +2,7 @@
 
 ### Installation (2 Ways)
 1) For run the application properly you can run each microservice independently and configure a Mysqlserver for order-service and also a use Mongo Atlas or a Mongo locally for inventory-service and product-service to ensure data persistence.
-   You will also need to have a **Kafka Server** running and mention it in notification-service properties and in order-service as well.
+   You will also need to have a **RabbitMQ** running and mention it in notification-service properties and in order-service as well.
 
 2) Use **Mongo Atlas** or a Mongo locally for inventory-service and product-service and run command below:
 
